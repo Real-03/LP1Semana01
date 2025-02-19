@@ -6,7 +6,8 @@ namespace AskForInput
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello LP1!");
+            Console.WriteLine("Introduza 1 numero");
+            Console.ReadLine();
         }
     }
 }
