@@ -11,6 +11,7 @@ namespace VariousTypes
 
             Console.WriteLine(HP);
             Console.WriteLine(RealNumber);
+            
         }
     }
 }
