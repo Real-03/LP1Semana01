@@ -7,6 +7,7 @@ namespace MeuPrograma
         private static void Main(string[] args)
         {
             Console.WriteLine("Hello LP1!");
+            Console.WriteLine("Bye world");
         }
     }
 }
