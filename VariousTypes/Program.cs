@@ -26,6 +26,12 @@ namespace VariousTypes
             Console.WriteLine(RealNumber);
             Console.WriteLine(DecimalNumber);
 
+
+            bool TrueVariable = 3.634f;
+            bool FalseVariable = 3.42478753235m;
+            Console.WriteLine(RealNumber);
+            Console.WriteLine(DecimalNumber);
+
         }
     }
 }
