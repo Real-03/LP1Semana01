@@ -27,10 +27,10 @@ namespace VariousTypes
             Console.WriteLine(DecimalNumber);
 
 
-            bool TrueVariable = 3.634f;
-            bool FalseVariable = 3.42478753235m;
-            Console.WriteLine(RealNumber);
-            Console.WriteLine(DecimalNumber);
+            bool TrueVariable = true;
+            bool FalseVariable = false;
+            Console.WriteLine(TrueVariable);
+            Console.WriteLine(FalseVariable);
 
         }
     }
