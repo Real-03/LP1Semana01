@@ -11,7 +11,9 @@ namespace AskForInput
             Console.WriteLine("Introduza 1 numero inteiro");
             UserNumberInt=Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Introduza 1 numero real");
-            UserNumberFloat=Convert.ToInt32(Console.ReadLine());
+            UserNumberFloat=Convert.ToSingle(Console.ReadLine());
+
+            Console.WriteLine($"{UserNumberInt} mais {UserNumberFloat} é igual a {UserNumberInt + UserNumberFloat}");
         }
     }
 }
