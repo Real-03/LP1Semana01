@@ -6,8 +6,12 @@ namespace AskForInput
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Introduza 1 numero");
-            Console.ReadLine();
+            int UserNumberInt;
+            float UserNumberFloat;
+            Console.WriteLine("Introduza 1 numero inteiro");
+            UserNumberInt=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Introduza 1 numero real");
+            UserNumberFloat=Convert.ToInt32(Console.ReadLine());
         }
     }
 }
